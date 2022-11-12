@@ -70,10 +70,11 @@
 
 }
 
-.part1-margin{
+.part1-margin {
     margin-right: 63px;
 }
-.part2-margin{
+
+.part2-margin {
     margin-right: 63px;
 }
 
@@ -98,6 +99,107 @@
 
 }
 
+.how-work-div {
+    margin-top: 40px;
+    margin-left: 187px;
+    margin-right: 490px;
+}
+
+.how-work-p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080;
+
+}
+
+.works {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 90px;
+    grid-row-gap: 12px;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+
+}
+
+.work-part2 {
+    line-height: 8px;
+}
+
+.work-part2 h3 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.work-part2 p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.772);
+}
+
+.icon-div {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+
+}
+
+.rupee-icon {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(#800080 0%, #FF864C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-color: blue;
+    padding: 20px;
+}
+
+.users-icon {
+    width: 32px;
+    height: 16px;
+    padding: 20px;
+}
+
+.coupon-icon {
+    width: 26.67px;
+    height: 26.67px;
+    padding: 20px;
+   
+}
+.discount-icon{
+    width: 26.64px;
+    height: 26.63px;
+    padding: 20px;
+}
+
+.wallet-icon {
+    width: 25.33px;
+    height: 24px;
+    padding: 20px;
+}
+
+.last-part {
+    margin-left: 187px;
+    margin-top: 60px;
+}
+
+.last-part p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #800080;
+}
 
 @media only screen and (max-width: 600px) {
     .ui-ux {
@@ -192,10 +294,11 @@
 
     }
 
-    .part1-margin{
+    .part1-margin {
         margin-right: 30px;
     }
-    .part2-margin{
+
+    .part2-margin {
         margin-right: 5px;
     }
 
@@ -203,13 +306,17 @@
         width: 15px;
 
     }
+    .icon-div {
+        margin-right: 20px;
+    
+    }
 
     .withdraw-balance-button-div {
         display: inline;
         position: absolute;
         left: 180px;
         top: 385px;
-        
+
     }
 
     .withdraw-balance-button {
@@ -223,5 +330,28 @@
 
     }
 
+    .how-work-div {
+        margin: 33px 10px;
 
+    }
+
+    .how-work-p {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #800080;
+
+    }
+
+    .works {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
+    .last-part {
+        margin-left: 37px;
+        margin-top: 57px;
+    }
+    
 }
