@@ -1,0 +1,227 @@
+.ui-ux {
+    margin-left: 187px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.refer-div {
+    display: flex;
+    margin-left: 187px;
+    margin-top: 25px;
+    margin-right: 242px;
+}
+
+.refer-div1 {
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.refer-earning {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.refer-code {
+    margin-left: 93px;
+
+}
+
+.refer-code p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080;
+}
+
+.refer-code .code {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5em;
+    color: #800080;
+    box-sizing: border-box;
+    border: 1.5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, rgba(128, 0, 128, 1), rgba(255, 134, 76, 1));
+    padding: 10px 20px;
+
+}
+
+.part p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+}
+
+.part h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+
+}
+
+.part1-margin{
+    margin-right: 63px;
+}
+.part2-margin{
+    margin-right: 63px;
+}
+
+.rupee {
+    width: 15px;
+
+}
+
+.withdraw-balance-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.withdraw-balance-button {
+
+    background-color: #800080;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ui-ux {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        margin-left: 35px;
+    }
+
+    .refer-div {
+        display: block;
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-right: 15px;
+    }
+
+    .refer-div1 {
+        box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    .refer-earning {
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 2px;
+
+    }
+
+    .refer-code {
+        display: flex;
+        justify-items: center;
+        margin: 30px;
+
+    }
+
+
+    .refer-code p {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #800080;
+    }
+
+    .refer-code .code {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1.5em;
+        color: #800080;
+        box-sizing: border-box;
+        border: 1.5px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left, rgba(128, 0, 128, 1), rgba(255, 134, 76, 1));
+        padding: 10px 20px;
+
+    }
+
+    .part p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #800080;
+    }
+
+    .part h2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+
+    }
+
+    .part2 p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #800080;
+    }
+
+    .part2 h2 {
+        display: inline;
+        align-items: center;
+        font-weight: 500;
+        font-size: 32px;
+
+    }
+
+    .part1-margin{
+        margin-right: 30px;
+    }
+    .part2-margin{
+        margin-right: 5px;
+    }
+
+    .rupee {
+        width: 15px;
+
+    }
+
+    .withdraw-balance-button-div {
+        display: inline;
+        position: absolute;
+        left: 180px;
+        top: 385px;
+        
+    }
+
+    .withdraw-balance-button {
+
+        background-color: #800080;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 20px;
+        border: none;
+
+
+    }
+
+
+}
