@@ -1,0 +1,124 @@
+.friends-page {
+    margin-left: 187px;
+
+}
+
+.ui-ux-f {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.purple {
+    color: #800080;
+}
+
+.font-14px {
+    font-size: 14px;
+}
+
+.font-16px {
+    font-size: 16px;
+}
+
+.font-six {
+    font-weight: 600;
+}
+
+.your-refer-code {
+    margin-top: 25px;
+    margin-right: 187px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.rf-code {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75em;
+    padding: 8px;
+    border: 1.5px solid #DFDFDF;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.wallet-balance-div {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 4px 12px;
+    line-height: 12px;
+    margin-top: 35px;
+
+}
+
+.balance {
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.three {
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: 500;
+}
+
+.friends {
+    display: grid;
+    grid-template-columns: repeat((1fr));
+    color: white;
+}
+
+.friend {
+    width: 358px;
+    height: 228px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.nameAndDate{
+    display: flex;
+    justify-content: space-between;
+    line-height: 5px;
+}
+.course-quantity{
+    line-height: 5px;
+ 
+
+}
+
+@media only screen and (max-width: 600px) {
+    .friends-page {
+        margin-left: 5px;
+
+    }
+
+    .ui-ux-f {
+        margin-left: 25px;
+    }
+
+    .your-refer-code {
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+    .wallet-balance-div {
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding: 4px 10px;
+        line-height: 12px;
+        margin-top: 30px;
+
+    }
+
+
+}

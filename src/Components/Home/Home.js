@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div>
+        <div className='home'>
 
             <div className='ui-ux'>
                 <p>UI/UX > Refer & Earn</p>
