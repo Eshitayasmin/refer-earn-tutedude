@@ -1,4 +1,4 @@
-import { faIndianRupeeSign, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faIndianRupeeSign} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Home.css';
@@ -23,7 +23,7 @@ const Home = () => {
                     <div className='refer-earning'>
                         <div className='part part1-margin'>
                             <p>Referral Earning</p>
-                            <h2><FontAwesomeIcon className='rupee' icon={faIndianRupeeSign}></FontAwesomeIcon> 2500</h2>
+                            <h2>₹ 2500</h2>
                         </div>
                         <div className='part part2-margin'>
                             <p>Total Referrals</p>
@@ -31,7 +31,7 @@ const Home = () => {
                         </div>
                         <div className='part part3-margin'>
                             <p>Wallet balance</p>
-                            <h2><span><FontAwesomeIcon className='rupee' icon={faIndianRupeeSign}></FontAwesomeIcon></span> 500</h2>
+                            <h2>₹ 500</h2>
                         </div>
                      
                     </div>

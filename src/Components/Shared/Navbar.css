@@ -59,7 +59,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 59px;
     }
 
     .nav-second-part {
@@ -72,10 +71,7 @@
         width: 160px;
         height: 45px;
         left: 3px;
-
-
-
-
+        margin-top: 57px;
     }
 
     .option {
@@ -90,6 +86,8 @@
         padding: 12px 20px;
         background-color: #800080;
         border-radius: 10px;
+        margin-top: 55px;
+        
     }
 
     .user-icon {
@@ -105,7 +103,6 @@
 
     .down-icon {
         color: white;
-        width: 12px;
     }
 
 }

@@ -68,26 +68,71 @@
 
 .friends {
     display: grid;
-    grid-template-columns: repeat((1fr));
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
     color: white;
+    margin-right: 187px;
 }
 
 .friend {
-    width: 358px;
-    height: 228px;
+    /* width: 358px;
+    height: 228px; */
+    position: relative;
     background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 20px;
+
 }
-.nameAndDate{
+
+.nameAndDate {
     display: flex;
     justify-content: space-between;
     line-height: 5px;
 }
-.course-quantity{
-    line-height: 5px;
- 
 
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 13px;
+    margin-right: 57px;
+}
+
+.course {
+    font-size: 14px;
+    padding: 3px 6px;
+    border: 1.5px solid #EEAEAE;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.course-quantity {
+    line-height: 5px;
+}
+
+.refer-money {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.more-border {
+    position: absolute;
+    width: 5px;
+    height: 25px;
+    left: 323px;
+    top: 106px;
+    background-color: #EEAEAE;
+    border-radius: 2.5px;
+}
+
+.terms {
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.go-back-div {
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -97,12 +142,26 @@
     }
 
     .ui-ux-f {
-        margin-left: 25px;
+        margin-left: 28px;
+    }
+
+    .go-back-div {
+        display: block;
+        text-decoration: none;
+        margin-left: 30px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 50%;
+        margin-top: 5px;
+    }
+    .left-arrow-icon{
+        width: 15px;
+        margin-right: 5px;
     }
 
     .your-refer-code {
-        margin-top: 25px;
-        margin-right: 25px;
+        margin-top: 4px;
+        margin-right: 15px;
         margin-left: 20px;
         display: flex;
         align-items: center;
@@ -112,12 +171,33 @@
 
 
     .wallet-balance-div {
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-        border-radius: 20px;
         padding: 4px 10px;
         line-height: 12px;
         margin-top: 30px;
 
+    }
+
+    .friends {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        margin: 20px 15px;
+    }
+
+    .courses {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 13px;
+        margin-right: 15px;
+    }
+
+    .left-35 {
+        margin-left: 30px;
+    }
+
+    .terms {
+        margin-top: 50px;
     }
 
 

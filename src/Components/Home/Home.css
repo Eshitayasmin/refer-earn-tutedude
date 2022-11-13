@@ -212,14 +212,13 @@ a:active{
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
-        margin-left: 35px;
+        margin-left: 29px;
     }
 
     .refer-div {
         display: block;
-        margin-left: 8px;
-        margin-top: 30px;
-        margin-right: 8px;
+        margin: 30px 15px 5px 10px;
+        padding-left: 10px;
     }
 
     .refer-div1 {
@@ -240,8 +239,7 @@ a:active{
     .refer-code {
         display: flex;
         justify-items: center;
-        margin: 30px;
-
+        margin: 10px 15px 50px; 
     }
 
 
@@ -252,26 +250,10 @@ a:active{
         color: #800080;
     }
 
-    .refer-code .code {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        letter-spacing: 1.5em;
-        color: #800080;
-        box-sizing: border-box;
-        border: 1.5px solid;
-        border-image-slice: 1;
-        border-image-source: linear-gradient(to left, rgba(128, 0, 128, 1), rgba(255, 134, 76, 1));
-        padding: 10px 20px;
-
-    }
-
     .part p {
         font-weight: 400;
         font-size: 14px;
-        line-height: 21px;
+        line-height: 10px;
         color: #800080;
     }
 
@@ -281,7 +263,7 @@ a:active{
         justify-content: space-evenly;
         font-weight: 500;
         font-size: 32px;
-        line-height: 48px;
+        line-height: 20px;
 
     }
 
@@ -305,7 +287,10 @@ a:active{
     }
 
     .part2-margin {
-        margin-right: 5px;
+        margin-right: 3px;
+    }
+    .part3-margin{
+        margin-right: 40px;
     }
 
     .rupee {
@@ -321,7 +306,7 @@ a:active{
         display: inline;
         position: absolute;
         left: 180px;
-        top: 385px;
+        top: 310px;
 
     }
 
@@ -346,6 +331,7 @@ a:active{
         font-size: 24px;
         line-height: 36px;
         color: #800080;
+        margin-left: 23px;
 
     }
 
@@ -357,7 +343,7 @@ a:active{
     }
     .last-part {
         margin-left: 37px;
-        margin-top: 57px;
+        margin-top: 50px;
     }
     
 }
