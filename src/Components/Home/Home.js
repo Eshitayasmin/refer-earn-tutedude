@@ -1,7 +1,6 @@
 import { faIndianRupeeSign, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import Navbar from '../Shared/Navbar';
 import './Home.css';
 import users from '../../images/users.png';
 import coupon from '../../images/coupon.png';
@@ -10,10 +9,11 @@ import wallet from '../../images/wallet.png';
 import { Link } from 'react-router-dom';
 
 
+
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
+
             <div className='ui-ux'>
                 <p>UI/UX > Refer & Earn</p>
             </div>
@@ -107,7 +107,7 @@ const Home = () => {
             </div>
 
           <div className='last-part'>
-            <p>Friends who Enrolled</p>
+            <p className='p'><Link to="enrolled_friends">Friends who Enrolled</Link></p>
             <p>Terms & Conditions</p>
           </div>
         </div>
