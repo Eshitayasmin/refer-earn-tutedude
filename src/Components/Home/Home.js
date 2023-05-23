@@ -1,5 +1,3 @@
-import { faIndianRupeeSign} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Home.css';
 import users from '../../images/users.png';
@@ -15,7 +13,7 @@ const Home = () => {
         <div className='home'>
 
             <div className='ui-ux'>
-                <p>UI/UX > Refer & Earn</p>
+                <p>UI/UX Refer & Earn</p>
             </div>
 
             <div className='refer-div'>
